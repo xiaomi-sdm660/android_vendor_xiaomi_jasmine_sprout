@@ -18,15 +18,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/jasmine/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/xiaomi/jasmine/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.b07:system/etc/firmware/goodixfp.b07 \
-    vendor/xiaomi/jasmine/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
+    vendor/xiaomi/jasmine/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/xiaomi/jasmine/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/jasmine/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/jasmine/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
