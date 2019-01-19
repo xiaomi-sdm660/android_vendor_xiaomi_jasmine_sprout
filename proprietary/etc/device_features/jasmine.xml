@@ -180,7 +180,7 @@
     <!--whether support snap with screen off  in camera-->
     <bool name="support_camera_quick_snap">true</bool>
     <!--whether support ai scene in camera -->
-    <bool name="camera_supported_ai_scene">false</bool>
+    <bool name="camera_supported_ai_scene">true</bool>
     <!-- whether the device app permission detail show in provision-->
     <bool name="support_provision_app_permission">true</bool>
     <!--whether support pre-installed application-->
@@ -305,7 +305,7 @@
     <!--whether camera support portrait mode switch -->
     <bool name="camera_is_support_portrait_switch">true</bool>
     <!-- whether camera support AI lens entry -->
-    <bool name="camera_support_ai_lens">false</bool>
+    <bool name="camera_support_ai_lens">true</bool>
     <!--whether taking legacy face beauty in camera-->
     <bool name="is_legacy_face_beauty">false</bool>
     <!--whether front camera support hdr or not-->
@@ -318,7 +318,7 @@
     <!--whether front camera support bokeh or not-->
 　  <bool name="support_front_bokeh">true</bool>
     <!--whether support auto mirror in camera-->
-    <bool name="support_auto_mirror">false</bool>
+    <bool name="support_auto_mirror">true</bool>
     <!--whether support auto mirror in camera-->
     <bool name="enhance_beauty_with_hht">true</bool>
     <!--whether support add watermark on bottom left of picture-->
@@ -342,7 +342,7 @@
     <!--whether process clcc in hfp pending state-->
     <bool name="process_clcc_in_pending_state">false</bool>
     <!--whether camcorder support intelligent switch between main & aux camera or not-->
-    <bool name="is_support_video_intelligent_switch">false</bool>
+    <bool name="is_support_video_intelligent_switch">true</bool>
     <!-- whether this device is Android one -->
     <bool name="is_android_one_device">true</bool>
 </features>
