@@ -1529,6 +1529,7 @@ PRODUCT_PACKAGES += \
     WfdService \
     dpmserviceapp \
     ims \
+    MiuiCamera \
     qcrilmsgtunnel \
     imssettings \
     FingerprintExtensionService \
