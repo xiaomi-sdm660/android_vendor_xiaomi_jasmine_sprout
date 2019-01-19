@@ -52,6 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/jasmine/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/xiaomi/jasmine/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+	vendor/xiaomi/jasmine/proprietary/etc/device_features/jasmine.xml:system/etc/device_features/jasmine.xml \
+    vendor/xiaomi/jasmine/proprietary/etc/default-permissions/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml \
     vendor/xiaomi/jasmine/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/jasmine/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/jasmine/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -84,6 +86,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/jasmine/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/xiaomi/jasmine/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+	vendor/xiaomi/jasmine/proprietary/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
+    vendor/xiaomi/jasmine/proprietary/lib/libmorpho_group_portrait.so:system/lib/libmorpho_group_portrait.so \
+    vendor/xiaomi/jasmine/proprietary/lib/libmorpho_groupshot.so:system/lib/libmorpho_groupshot.so \
+    vendor/xiaomi/jasmine/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/jasmine/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
+    vendor/xiaomi/jasmine/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/jasmine/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/jasmine/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/jasmine/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
@@ -119,6 +127,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jasmine/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/xiaomi/jasmine/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/xiaomi/jasmine/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
+	vendor/xiaomi/jasmine/proprietary/lib64/libCameraEffectJNI.so:system/lib64/libCameraEffectJNI.so \
+    vendor/xiaomi/jasmine/proprietary/lib64/libmorpho_group_portrait.so:system/lib64/libmorpho_group_portrait.so \
+    vendor/xiaomi/jasmine/proprietary/lib64/libmorpho_groupshot.so:system/lib64/libmorpho_groupshot.so \
+    vendor/xiaomi/jasmine/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/jasmine/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/jasmine/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/jasmine/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/jasmine/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/jasmine/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
