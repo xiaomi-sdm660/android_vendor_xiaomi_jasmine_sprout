@@ -1767,6 +1767,7 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libthermalclient \
     libtime_genoff \
+    libqct_resampler \
     QtiSystemService \
     QtiTelephonyService \
     WfdService \
